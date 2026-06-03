@@ -1,0 +1,7 @@
+Terrarium TV standalone initialized
+Source APK: C:\Users\johns\OneDrive\Desktop\CyberFlix TV [3.6.0].apk
+Target APK: C:\Users\johns\OneDrive\Desktop\Terrarium TV\Terrarium TV.apk
+Version: v3.6.0
+SHA-256: 2877CB1E695D888C5AEB51AD0D41D4CEB219228185EB6237C37369A6B57D5A35
+Updated: 2026-06-02
+Status: Ready for local install or publishing
