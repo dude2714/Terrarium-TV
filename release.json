@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.8",
-    "updatedUtc":  "2026-06-03T21:20:58Z",
-    "apkFile":  "Terrarium-TV-v3.6.8.apk",
+    "version":  "v3.6.9",
+    "updatedUtc":  "2026-06-03T21:54:37Z",
+    "apkFile":  "Terrarium-TV-v3.6.9.apk",
     "sizeBytes":  17326011,
-    "sha256":  "81C75F45DFD22ED265A7B685C8E445725A8F30FF8A5954A70327B1E9C3BD4CDA",
-    "notes":  "Fix: rebind Settings click handlers at runtime so RD/AllDebrid/Premiumize/Torbox account buttons respond correctly."
+    "sha256":  "AD5C9F444A0117F5A2308D4B3AA9B2D8C6D022FEA4CCC8D3D655686AED83B641",
+    "notes":  "TV focus fix: account buttons now show focus highlight and are D-pad clickable (RD/AD/Premiumize/Torbox)."
 }
