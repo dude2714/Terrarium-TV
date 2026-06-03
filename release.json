@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.7",
-    "updatedUtc":  "2026-06-03T20:26:05Z",
-    "apkFile":  "Terrarium-TV-v3.6.7.apk",
+    "version":  "v3.6.8",
+    "updatedUtc":  "2026-06-03T21:20:58Z",
+    "apkFile":  "Terrarium-TV-v3.6.8.apk",
     "sizeBytes":  17326011,
-    "sha256":  "C3E934203E6A6CDD7BBF7E19B133D2DBC249E7A3E10C2D85731319C384D8826F",
-    "notes":  "Implemented Torbox auth flow in Settings (API key login/logout + validation); updated account buttons and provider-aware dialogs."
+    "sha256":  "81C75F45DFD22ED265A7B685C8E445725A8F30FF8A5954A70327B1E9C3BD4CDA",
+    "notes":  "Fix: rebind Settings click handlers at runtime so RD/AllDebrid/Premiumize/Torbox account buttons respond correctly."
 }

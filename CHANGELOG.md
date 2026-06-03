@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## v3.6.8 - 2026-06-03T21:20:58Z
+- APK: Terrarium-TV-v3.6.8.apk
+- Size: 17326011 bytes
+- SHA-256: 81C75F45DFD22ED265A7B685C8E445725A8F30FF8A5954A70327B1E9C3BD4CDA
+- Notes: Fix: rebind Settings click handlers at runtime so RD/AllDebrid/Premiumize/Torbox account buttons respond correctly.
+
 ## v3.6.7 - 2026-06-03T20:26:05Z
 - APK: Terrarium-TV-v3.6.7.apk
 - Size: 17326011 bytes
@@ -47,6 +53,8 @@
 - Size: 16975982 bytes
 - SHA-256: 2877CB1E695D888C5AEB51AD0D41D4CEB219228185EB6237C37369A6B57D5A35
 - Notes: Initial standalone Terrarium TV package from CyberFlix TV [3.6.0].apk
+
+
 
 
 

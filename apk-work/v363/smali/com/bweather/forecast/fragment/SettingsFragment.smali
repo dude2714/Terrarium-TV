@@ -872,6 +872,9 @@
     :goto_0
     const/4 v4, 0x2
 
+    invoke-virtual {p0}, Lcom/bweather/forecast/fragment/SettingsFragment;->י()V
+
+
     iget-object v0, p0, Lcom/bweather/forecast/fragment/SettingsFragment;->ʽᐧ:Lrd;
 
     const/4 v4, 0x2
