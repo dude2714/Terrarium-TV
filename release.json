@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.12",
-    "updatedUtc":  "2026-06-03T23:00:00Z",
-    "apkFile":  "Terrarium-TV-v3.6.12.apk",
+    "version":  "v3.6.13",
+    "updatedUtc":  "2026-06-03T23:37:00Z",
+    "apkFile":  "Terrarium TV.apk",
     "sizeBytes":  17526715,
-    "sha256":  "9FBD4971CD75B439841E5941EB636EF0B73F38DCD36661D8C0CFE98A7987F2AD",
-    "notes":  "Fix startup crash on some layout variants by null-checking Year button binding in MainActivity."
+    "sha256":  "D9E0669425805EDD34D04DD6D894A485EAB8E0A9761FD0566BF7EECA7F86BFEE",
+    "notes":  "Hotfix: AllDebrid link unlock URL encoding and response parser compatibility for data/top-level payloads."
 }
