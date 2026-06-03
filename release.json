@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.2",
-    "updatedUtc":  "2026-06-03T04:21:11Z",
+    "version":  "v3.6.3",
+    "updatedUtc":  "2026-06-03T04:43:08Z",
     "apkFile":  "Terrarium TV.apk",
-    "sizeBytes":  17289139,
-    "sha256":  "6D61FF4F2E14DE47BD41B36DD601BAF98C67ABE52494005F2351FC4ECD05B2AD",
-    "notes":  "Switched to BeeTV 4.6.1 core (includes AllDebrid support)"
+    "sizeBytes":  17326011,
+    "sha256":  "DAC7DB489721BD7904E280516350FC61589D9D2B23C927ABE5CC27FA3B7A5BBF",
+    "notes":  "UI: added explicit AllDebrid button beside Real-Debrid in Settings \u003e Account."
 }
