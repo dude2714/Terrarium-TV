@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.5",
-    "updatedUtc":  "2026-06-03T05:21:44Z",
-    "apkFile":  "Terrarium-TV-v3.6.5.apk",
+    "version":  "v3.6.6",
+    "updatedUtc":  "2026-06-03T20:07:15Z",
+    "apkFile":  "Terrarium-TV-v3.6.6.apk",
     "sizeBytes":  17326011,
-    "sha256":  "DF215605CE335D6AB245A5B0545C9C02479541A01BB7A700037292E928A50B9A",
-    "notes":  "Fixed app identity: package name set to com.terrariumtv.app; AllDebrid button visible in Settings"
+    "sha256":  "E070A474B6B2ABC425839FC803B35E7D7B1C00A7394115B4FA2D4B994941D5CB",
+    "notes":  "Settings UI update: Premiumize button moved beside debrid options; Torbox button added in Account section (coming soon placeholder)."
 }
