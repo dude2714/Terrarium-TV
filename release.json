@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.13",
-    "updatedUtc":  "2026-06-03T23:37:00Z",
+    "version":  "v3.6.14",
+    "updatedUtc":  "2026-06-04T00:24:44Z",
     "apkFile":  "Terrarium TV.apk",
     "sizeBytes":  17526715,
-    "sha256":  "D9E0669425805EDD34D04DD6D894A485EAB8E0A9761FD0566BF7EECA7F86BFEE",
-    "notes":  "Hotfix: AllDebrid link unlock URL encoding and response parser compatibility for data/top-level payloads."
+    "sha256":  "22B04105364AD3507C0B57FD36E47DB3A9500BCE3286BF89DD0006132E86D12B",
+    "notes":  "UI: debrid badge labels/colors for easy identification (RD blue, AD light green, Torbox light orange, PM yellow)."
 }
