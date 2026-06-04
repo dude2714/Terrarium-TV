@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## v3.6.16 - 2026-06-04T01:17:25Z
+- APK: Terrarium TV.apk
+- Size: 17526715 bytes
+- SHA-256: 5ABBC20FEC8AA2B7C9C96D1123CA97B76B23701926B0B947A65381FD7071B303
+- Notes: Rollback UI regression: stable link adapter restored to keep scraping on selected movie and preserve non-debrid links.
+
 ## v3.6.15 - 2026-06-04T01:01:33Z
 - APK: Terrarium TV.apk
 - Size: 17526715 bytes
@@ -95,6 +101,8 @@
 - Size: 16975982 bytes
 - SHA-256: 2877CB1E695D888C5AEB51AD0D41D4CEB219228185EB6237C37369A6B57D5A35
 - Notes: Initial standalone Terrarium TV package from CyberFlix TV [3.6.0].apk
+
+
 
 
 

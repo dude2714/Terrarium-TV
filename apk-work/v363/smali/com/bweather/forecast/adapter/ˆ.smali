@@ -126,7 +126,7 @@
 .end method
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
-    .locals 8
+    .locals 4
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0,
@@ -228,120 +228,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v4, 0x7fffffff
-
-    invoke-virtual {p1}, Lcom/bweather/forecast/model/Link;->getThirdparty()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p1}, Lcom/bweather/forecast/model/Link;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-nez v2, :goto_provider_done
-
-    const-string v1, "ALL"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_provider_rd
-
-    const-string v2, "[ALL]"
-
-    const-string v5, "[AD]"
-
-    invoke-virtual {v1, v2, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v1
-
-    const v4, -0x641c86
-
-    goto :goto_provider_done
-
-    :cond_provider_rd
-    const-string v2, "DEB"
-
-    invoke-virtual {v2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_provider_pm
-
-    const-string v2, "[DEB]"
-
-    const-string v5, "[RD]"
-
-    invoke-virtual {v1, v2, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v1
-
-    const v4, -0xb25801
-
-    goto :goto_provider_done
-
-    :cond_provider_pm
-    const-string v2, "PREMIUMIZE"
-
-    invoke-virtual {v2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_provider_torbox
-
-    const-string v2, "[PREMIUMIZE]"
-
-    const-string v5, "[PM]"
-
-    invoke-virtual {v1, v2, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v1
-
-    const v4, -0x1f9a
-
-    goto :goto_provider_done
-
-    :cond_provider_torbox
-    const-string v2, "TORBOX"
-
-    invoke-virtual {v2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_provider_torbox_apply
-
-    const-string v2, "TOR"
-
-    invoke-virtual {v2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :goto_provider_done
-
-    :cond_provider_torbox_apply
-    const-string v0, "[TOR]"
-
-    const-string v2, "[TORBOX]"
-
-    invoke-virtual {v1, v0, v2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v1
-
-    const v4, -0x3d86
-
-    :goto_provider_done
-
-    invoke-static {p3}, Lcom/bweather/forecast/adapter/ˆ$ʻ;->ʼ(Lcom/bweather/forecast/adapter/ˆ$ʻ;)Landroid/widget/TextView;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
     const/4 v3, 0x2
 
     invoke-virtual {p1}, Lcom/bweather/forecast/model/Link;->isSelected()Z
@@ -436,22 +322,6 @@
     const/4 v3, 0x5
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setTextColor(I)V
-
-    const v0, 0x7fffffff
-
-    if-eq v4, v0, :goto_1
-
-    invoke-static {p3}, Lcom/bweather/forecast/adapter/ˆ$ʻ;->ʼ(Lcom/bweather/forecast/adapter/ˆ$ʻ;)Landroid/widget/TextView;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
-
-    invoke-static {p3}, Lcom/bweather/forecast/adapter/ˆ$ʻ;->ʻ(Lcom/bweather/forecast/adapter/ˆ$ʻ;)Landroid/widget/TextView;
-
-    move-result-object p3
-
-    invoke-virtual {p3, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
     :goto_1
     return-object p2

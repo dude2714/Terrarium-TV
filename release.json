@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.15",
-    "updatedUtc":  "2026-06-04T01:01:33Z",
+    "version":  "v3.6.16",
+    "updatedUtc":  "2026-06-04T01:17:25Z",
     "apkFile":  "Terrarium TV.apk",
     "sizeBytes":  17526715,
-    "sha256":  "BB1036BF55ADDE4A3A4738E17A5F588EB78133439647364D85CFC6976D264DAE",
-    "notes":  "Hotfix: keep debrid resolution intact while preserving non-debrid links; provider badge styling made visual-only."
+    "sha256":  "5ABBC20FEC8AA2B7C9C96D1123CA97B76B23701926B0B947A65381FD7071B303",
+    "notes":  "Rollback UI regression: stable link adapter restored to keep scraping on selected movie and preserve non-debrid links."
 }
