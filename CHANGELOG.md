@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## v3.6.23 - 2026-06-05T01:10:30Z
+- APK: Terrarium-TV-v3.6.23.apk
+- Size: 17526715 bytes
+- SHA-256: D4967AF6EBA79F7AACE5E5450F494E4D3C1A082DCD1324B4427A79B86A4043E6
+- Notes: Audit fix: preserve RD token_type register through fallback path so Authorization header uses stored token type. Non-debrid link flow unchanged.
+
 ## v3.6.22 - 2026-06-05T00:58:46Z
 - APK: Terrarium-TV-v3.6.22.apk
 - Size: 17526715 bytes
@@ -131,6 +137,8 @@
 - Size: 16975982 bytes
 - SHA-256: 2877CB1E695D888C5AEB51AD0D41D4CEB219228185EB6237C37369A6B57D5A35
 - Notes: Initial standalone Terrarium TV package from CyberFlix TV [3.6.0].apk
+
+
 
 
 

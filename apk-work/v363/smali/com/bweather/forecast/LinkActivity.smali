@@ -11803,7 +11803,7 @@
 .end method
 
 .method private ˆᴵ(Ljava/lang/String;)V
-    .locals 4
+    .locals 5
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x10
@@ -11845,6 +11845,8 @@
 
     :cond_token_type_ok
 
+    move-object v4, v1
+
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -11856,6 +11858,8 @@
     const-string v1, "RealDebrid"
 
     invoke-direct {p0, p1, v2, v3, v1}, Lcom/bweather/forecast/LinkActivity;->ʽʿ(Ljava/lang/String;DLjava/lang/String;)V
+
+    move-object v1, v4
 
     const/4 v3, 0x6
 
