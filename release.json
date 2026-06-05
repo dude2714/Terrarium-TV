@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.21",
-    "updatedUtc":  "2026-06-05T00:49:58Z",
-    "apkFile":  "Terrarium-TV-v3.6.21.apk",
+    "version":  "v3.6.22",
+    "updatedUtc":  "2026-06-05T00:58:46Z",
+    "apkFile":  "Terrarium-TV-v3.6.22.apk",
     "sizeBytes":  17526715,
-    "sha256":  "61C1D5197253C3DEA01413001FC7CAFF53E6DA9BC580AD19CC459D06BA3BDCE8",
-    "notes":  "RD parser hardening: normalize payload (data or top-level) and accept download/link/url shapes; callback always forwards payload for parse. Non-debrid behavior unchanged."
+    "sha256":  "AA3891D49509F2B2185ACC6C2875E89DC3E7BCE192CBA17EB8789CF89A7AAECE",
+    "notes":  "Debrid fallback hardening: restore RD/AD token guards, inject debrid-labeled fallback links when tokens exist, and keep normal unlock APIs + non-debrid links unchanged."
 }

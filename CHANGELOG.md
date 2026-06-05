@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## v3.6.22 - 2026-06-05T00:58:46Z
+- APK: Terrarium-TV-v3.6.22.apk
+- Size: 17526715 bytes
+- SHA-256: AA3891D49509F2B2185ACC6C2875E89DC3E7BCE192CBA17EB8789CF89A7AAECE
+- Notes: Debrid fallback hardening: restore RD/AD token guards, inject debrid-labeled fallback links when tokens exist, and keep normal unlock APIs + non-debrid links unchanged.
+
 ## v3.6.21 - 2026-06-05T00:49:58Z
 - APK: Terrarium-TV-v3.6.21.apk
 - Size: 17526715 bytes
@@ -125,6 +131,8 @@
 - Size: 16975982 bytes
 - SHA-256: 2877CB1E695D888C5AEB51AD0D41D4CEB219228185EB6237C37369A6B57D5A35
 - Notes: Initial standalone Terrarium TV package from CyberFlix TV [3.6.0].apk
+
+
 
 
 

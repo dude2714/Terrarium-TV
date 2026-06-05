@@ -8549,6 +8549,18 @@
 
     move-result-object v0
 
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    const-wide/16 v1, 0x0
+
+    const-string v3, "AllDebrid"
+
+    invoke-direct {p0, p1, v1, v2, v3}, Lcom/bweather/forecast/LinkActivity;->ʽʿ(Ljava/lang/String;DLjava/lang/String;)V
+
     const/4 v3, 0x3
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -11832,6 +11844,18 @@
     const-string v1, "Bearer"
 
     :cond_token_type_ok
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_0
+
+    const-wide/16 v2, 0x0
+
+    const-string v1, "RealDebrid"
+
+    invoke-direct {p0, p1, v2, v3, v1}, Lcom/bweather/forecast/LinkActivity;->ʽʿ(Ljava/lang/String;DLjava/lang/String;)V
 
     const/4 v3, 0x6
 
