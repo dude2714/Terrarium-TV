@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "v3.6.18",
-    "updatedUtc":  "2026-06-05T00:16:23Z",
-    "apkFile":  "Terrarium-TV-v3.6.18.apk",
+    "version":  "v3.6.19",
+    "updatedUtc":  "2026-06-05T00:24:27Z",
+    "apkFile":  "Terrarium-TV-v3.6.19.apk",
     "sizeBytes":  17526715,
-    "sha256":  "2AEF544A4942893C35133AE180CC789C7A822DC772FF8E05D41C7D6CE5B69782",
-    "notes":  "Debrid hotfix: fall back to ahihi URL when host.url is empty so RD and AD unlock requests still run; non-debrid links remain visible."
+    "sha256":  "F57D874281FEED44B87A9C864D1C0468C451865B80ACD5BD8E1FFD847C5D1BAC",
+    "notes":  "Debrid attempt expansion: when source has both host.url and ahihi URLs, try RD and AD unlock against both valid distinct HTTP candidates; keeps non-debrid links unchanged."
 }

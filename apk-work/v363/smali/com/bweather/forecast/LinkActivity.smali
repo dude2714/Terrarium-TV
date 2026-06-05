@@ -7370,6 +7370,32 @@
 
     const/4 v10, 0x5
 
+    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_debrid_alt_done
+
+    const-string v1, "http"
+
+    invoke-virtual {v4, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_debrid_alt_done
+
+    invoke-virtual {v4, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_debrid_alt_done
+
+    invoke-direct {p0, v4}, Lcom/bweather/forecast/LinkActivity;->ˆᴵ(Ljava/lang/String;)V
+
+    invoke-direct {p0, v4}, Lcom/bweather/forecast/LinkActivity;->ʾˎ(Ljava/lang/String;)V
+
+    :cond_debrid_alt_done
+
     invoke-direct {p0, v0, v2}, Lcom/bweather/forecast/LinkActivity;->ˆˑ(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v10, 0x6
