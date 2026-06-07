@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Terrarium TV</title>
+  <title>Moovies</title>
   <style>
     :root {
-      --bg: #0d1117;
-      --panel: #161b22;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --accent: #2ea043;
-      --border: #30363d;
+      --bg: #0a0c10;
+      --panel: rgba(18, 22, 30, 0.9);
+      --text: #f4f7fb;
+      --muted: #a1adbb;
+      --accent: #7bd389;
+      --border: rgba(255, 255, 255, 0.08);
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: Segoe UI, Tahoma, sans-serif;
-      background: radial-gradient(circle at 20% 20%, #1f2a37 0%, var(--bg) 55%);
+      background:
+        radial-gradient(circle at top left, rgba(123, 211, 137, 0.16), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(78, 132, 255, 0.12), transparent 30%),
+        var(--bg);
       color: var(--text);
       min-height: 100vh;
       display: grid;
@@ -25,24 +28,52 @@
       padding: 24px;
     }
     .card {
-      width: min(720px, 100%);
-      background: color-mix(in srgb, var(--panel) 92%, black);
+      width: min(920px, 100%);
+      background: var(--panel);
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 28px;
-      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+      border-radius: 20px;
+      padding: 18px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(12px);
     }
-    h1 { margin: 0 0 8px 0; font-size: 2rem; }
+    .hero {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 14px;
+    }
+    .art {
+      width: 140px;
+      height: 140px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #111;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+    }
+    .art img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    h1 { margin: 0 0 8px 0; font-size: clamp(2rem, 3vw, 3rem); letter-spacing: 0.02em; }
     p { margin: 6px 0; color: var(--muted); }
     .btn {
       margin-top: 18px;
       display: inline-block;
       background: var(--accent);
-      color: white;
+      color: #08120b;
       text-decoration: none;
       padding: 12px 18px;
       border-radius: 10px;
       font-weight: 700;
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.05);
     }
     .meta {
       margin-top: 18px;
@@ -58,9 +89,17 @@
 </head>
 <body>
   <main class="card">
-    <h1>Terrarium TV</h1>
-    <p>Standalone APK download page.</p>
-    <a class="btn" id="downloadBtn" href="Terrarium%20TV.apk" download>Download Terrarium TV APK</a>
+    <section class="hero">
+      <div class="art">
+        <img src="icon.png" alt="Moovies icon" />
+      </div>
+      <div>
+        <h1>Moovies</h1>
+        <p>Standalone APK download page.</p>
+        <a class="btn" id="downloadBtn" href="Moovies-v3.6.23.apk" download>Download Moovies APK</a>
+      </div>
+    </section>
+    <img src="fanart.jpg" alt="Moovies fanart" style="width:100%;max-height:280px;object-fit:cover;border-radius:16px;border:1px solid var(--border);display:block;margin-top:10px;" />
     <section class="meta" id="meta">Loading release metadata...</section>
   </main>
 
