@@ -1,8 +1,8 @@
 ﻿{
     "version":  "v3.6.23",
-    "updatedUtc":  "2026-06-06T20:15:46Z",
+    "updatedUtc":  "2026-06-07T00:00:00Z",
     "apkFile":  "Moovies-v3.6.23.apk",
-    "sizeBytes":  17530811,
-    "sha256":  "CAB0F4E1F5C997B442C5ACCE155E6E6BBDE2F806CB08D100F2B19937FD03A571",
-    "notes":  "Audit fix: preserve RD token_type register through fallback path so Authorization header uses stored token type. Non-debrid link flow unchanged."
+    "sizeBytes":  17526715,
+    "sha256":  "D4967AF6EBA79F7AACE5E5450F494E4D3C1A082DCD1324B4427A79B86A4043E6",
+    "notes":  "Stability republish: Moovies file now points to known-stable v3.6.23 binary."
 }
