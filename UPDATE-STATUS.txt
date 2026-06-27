@@ -1,0 +1,7 @@
+Terrarium TV standalone published for Android devices
+Source APK: C:\Users\johns\OneDrive\Desktop\Terrarium TV [2.0.5].apk
+Target APK: C:\Users\johns\OneDrive\Desktop\empty folder\terrarium-tv\Terrarium TV.apk
+Version: v2.0.5
+SHA-256: DD552D5AF641042FC51A292CF8E82D8421EFD3E67CD7E247953389D5A5F5EC73
+Updated: 2026-06-27
+Status: Ready for Android device sideloading or publishing
